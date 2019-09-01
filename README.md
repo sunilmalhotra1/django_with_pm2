@@ -9,6 +9,7 @@ Python django app can run non stop on any server using pm2.
    https://nodejs.org/en/download/
 2. Install npm using this command in command prompt / terminal
    npm install npm@latest -g
+   reference : https://www.npmjs.com/get-npm
 3. Run this command for execute django application non stop on server machine
    pm2 start echosystem.config.json
 
