@@ -29,8 +29,10 @@ Description of echosystem.config.json
 }]
 }
 
-If we have to change the port number of our django application,then we can the port no in args attribute of echosystem.config.json file.
-After done the changes in echosystem.config.json file, stop the server using pm2 command like this:
- pm2 stop all // this command will stop all server.
- pm2 stop 0 // if you know the pm2 id then execute command like this.
- m2 start echosystem.config.json // again start the django application.
+If we have to change the port number of our django application,
+   then we can the port no in args attribute of echosystem.config.json file.
+After done the changes in echosystem.config.json file, 
+   stop the server using pm2 command like this:
+   pm2 stop all // this command will stop all server.
+   pm2 stop 0 // if you know the pm2 id then execute command like this.
+   pm2 start echosystem.config.json // again start the django application.
